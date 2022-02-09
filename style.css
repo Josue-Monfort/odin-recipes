@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: azure;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: rgb(59, 59, 59);
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+.odin-heading {
+  text-align: center;
+}
+
+.back {
+  color: brown;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 300px));
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.recipeImg-1 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  transition: all 1s;
+}
+
+.recipeCard > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  transition: all 1s;
+}
+
+.recipeCard:hover img {
+  opacity: 1;
+  border-radius: 35px;
+}
+
