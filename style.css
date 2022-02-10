@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: azure;
+  background-color: #342628;
 }
 
 ul {
@@ -14,26 +14,34 @@ a {
   color: rgb(59, 59, 59);
 }
 
-h2 {
-  font-size: 1.2em;
+h1 {
+  font-size: 1.45em;
+  color: #788402;
+  margin: 0;
+  margin-top: 2vh;
+  margin-bottom: 0.5vh;
+}
+
+p {
+  font-size: 1.1em;
+  color: white;
+  margin: 0;
 }
 
 .odin-heading {
+  font-size: 2.2em;
+  color: #feaa00;
   text-align: center;
-}
-
-.back {
-  color: brown;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
-  grid-template-rows: repeat(auto-fit, minmax(250px, 300px));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 270px));
+  grid-template-rows: repeat(auto-fit, minmax(250px, 350px));
+  gap: 20px;
   justify-content: center;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .recipeImg-1 {
@@ -47,7 +55,7 @@ h2 {
 .recipeCard > img {
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.4;
   transition: all 1s;
 }
 
